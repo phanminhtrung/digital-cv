@@ -1,3 +1,4 @@
+/*General*/
 * {
     margin: 0px;
     padding: 0px;
@@ -283,4 +284,26 @@ body {
         align-items: center;
         gap: 10px
     }
+}
+
+/*Styte for Digital-CV,Web App, Destop App pages*/
+.container-project h1 {
+    color: blue;
+    border-bottom: 1px solid #c0bfc7;
+}
+
+.goals .col-lg-9 {
+    border-bottom: 1px solid #e5e4eb;
+}
+
+.timeline .col-lg-9 {
+    border-bottom: 1px dotted #199cdb;
+}
+.timeline i::before {
+    font-size: 43px;
+    background-color:#9966FF;
+    width: 42px;
+    height:42px;
+    border-radius: 50%;   
+    color: #fff;
 }
